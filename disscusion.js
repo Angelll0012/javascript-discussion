@@ -22,10 +22,10 @@ if (true){
 let primaryColour ="Pink"
 let secondaryColour//creates a brand-new slot = primaryColour;
 //copies the value pink
-secondaryColour = "Black"
+ = "Black"
 
-console.log(primaryColor);   // Logs: "Pink" (Unchanged)
-console.log(secondaryColor); // Logs: "Black" (changed)
+console.log(primaryColour);   // Logs: "Pink" (Unchanged)
+console.log(secondaryColour); // Logs: "Black" (changed)
 
 //reference types
 
