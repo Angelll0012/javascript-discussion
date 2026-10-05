@@ -1,4 +1,5 @@
-function sayHi(fullName){
+//nested functions
+/*function sayHi(fullName){
     return `Hello world ${fullName}`;
 }
 
@@ -44,10 +45,30 @@ function learningscope(){
 }
     return greeting();
 }
-console.log(learningscope());
+console.log(learningscope());*/
 
+//call backs
+function add(a, b){
+    return a + b;
+}
 
+function subtract(a, b){
+    return a - b;
+}
 
+function multiply(a, b){
+    return a * b;
+}
 
+function divide(a, b){
+    return a / b;
+}
 
+function operation(a, b, op){
+    return op(a, b);
+}
 
+console.log(operation(16, 55, add));
+console.log(operation(67, 54, subtract));
+console.log(operation(89, 53, multiply));
+console.log(operation(20, 4, divide));
